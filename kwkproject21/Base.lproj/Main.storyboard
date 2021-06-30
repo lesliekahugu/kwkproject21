@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i33-Mx-5yz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1gP-ZK-gBB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -8,31 +8,27 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
-        <scene sceneID="Kq6-4N-eJf">
+        <!--Home-->
+        <scene sceneID="La8-gP-myv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DkP-Ah-fSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController id="i33-Mx-5yz" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aN1-Om-QYP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="XJK-q6-y6Q" kind="relationship" relationship="viewControllers" id="Oq5-0G-z6q"/>
-                        <segue destination="2Xf-l4-TcP" kind="relationship" relationship="viewControllers" id="HVe-Vv-bub"/>
-                        <segue destination="1DG-0l-UQM" kind="relationship" relationship="viewControllers" id="0xk-9g-Bqp"/>
-                        <segue destination="DLM-6C-HMH" kind="relationship" relationship="viewControllers" id="DoI-Rl-ft7"/>
-                    </connections>
-                </tabBarController>
+                <viewController id="XQP-dC-wyc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Dw-dO-038">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZSw-4r-Lcr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="VOk-ix-z1F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eyl-1s-FuP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-417" y="108"/>
+            <point key="canvasLocation" x="513" y="70"/>
         </scene>
         <!--Resources-->
         <scene sceneID="rcm-Pa-hj7">
             <objects>
                 <navigationController id="XJK-q6-y6Q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" id="bOQ-tA-TFF"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="magnifyingglass" catalog="system" id="bOQ-tA-TFF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IYc-GA-UdP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -113,7 +109,7 @@
         <scene sceneID="VsF-5A-R79">
             <objects>
                 <navigationController id="2Xf-l4-TcP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Journal" id="rQj-7V-HJY"/>
+                    <tabBarItem key="tabBarItem" title="Journal" image="square.and.pencil" catalog="system" id="rQj-7V-HJY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hVa-Me-R44">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -130,7 +126,7 @@
         <scene sceneID="2K4-QN-TRC">
             <objects>
                 <navigationController id="1DG-0l-UQM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Timer" id="Qqm-gG-S7Y"/>
+                    <tabBarItem key="tabBarItem" title="Timer" image="timer" catalog="system" id="Qqm-gG-S7Y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G8s-U0-pOI">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -147,7 +143,7 @@
         <scene sceneID="nAk-fj-heB">
             <objects>
                 <navigationController id="DLM-6C-HMH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Reminders" id="Wi4-7C-FzW"/>
+                    <tabBarItem key="tabBarItem" title="Reminders" image="lightbulb" catalog="system" id="Wi4-7C-FzW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1HG-IW-Uu1">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -160,8 +156,34 @@
             </objects>
             <point key="canvasLocation" x="878" y="848"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8iS-W1-vBC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1gP-ZK-gBB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LlV-1q-9Eu">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XQP-dC-wyc" kind="relationship" relationship="viewControllers" id="nUP-a2-5yT"/>
+                        <segue destination="XJK-q6-y6Q" kind="relationship" relationship="viewControllers" id="QzI-Si-yYj"/>
+                        <segue destination="2Xf-l4-TcP" kind="relationship" relationship="viewControllers" id="WnV-wa-UXU"/>
+                        <segue destination="1DG-0l-UQM" kind="relationship" relationship="viewControllers" id="dvv-GP-cNa"/>
+                        <segue destination="DLM-6C-HMH" kind="relationship" relationship="viewControllers" id="4yL-aQ-UzR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VNf-jv-5c3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="70"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="lightbulb" catalog="system" width="113" height="128"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
