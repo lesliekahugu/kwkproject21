@@ -20,6 +20,12 @@ class RemindersViewController: UIViewController, UITableViewDelegate, UITableVie
 
     @IBOutlet weak var table: UITableView!
     
+    struct MyReminder {
+        let title: String
+        let date: Date
+        let identifier: String
+    }
+    
     var models = [MyReminder]()
 
     override func viewDidLoad() {
@@ -135,11 +141,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 
-struct MyReminder {
-    let title: String
-    let date: Date
-    let identifier: String
-}      // Do any additional setup after loading the view.
+     // Do any additional setup after loading the view.
     
     
 

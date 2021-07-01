@@ -9,16 +9,23 @@ import UIKit
 
 class ResourcesViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    
     
     //Testing if code works by changing color of background to purple when top button clicked -- LG
-    @IBAction func callButtonOne(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor.purple
+    /*@IBAction func callButtonOne(_ sender: UIButton) {
+        
+    }*/
+    override func  viewDidLoad() {
+      super.viewDidLoad()
+     
     }
+    
+    @IBAction func buttonOne(_ sender: UIButton) {
+        if let url = URL(string: "https://www.google.com"){
+                    UIApplication.shared.open(url)
+                }
+    }
+    
     
     /*
     // MARK: - Navigation
