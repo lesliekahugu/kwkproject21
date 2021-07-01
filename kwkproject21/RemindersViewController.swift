@@ -4,11 +4,19 @@
 //
 //  Created by Lavanya Goel on 7/1/21.
 //
-/*
+
 import UserNotifications
 import UIKit
 
-class RemindersViewController: UIViewController {
+class RemindersViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+    }
+    
 
     @IBOutlet weak var table: UITableView!
     
@@ -57,7 +65,7 @@ class RemindersViewController: UIViewController {
 
     }
 
-    @IBAction func didTapTest() {
+    @IBAction func didTapTest(_ sender: Any) {
         // fire test notification
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { success, error in
             if success {
@@ -146,4 +154,3 @@ struct MyReminder {
     */
 
 
-*/
