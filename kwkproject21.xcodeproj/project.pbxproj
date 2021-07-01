@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9FF99D268D7706003C4417 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF99C268D7706003C4417 /* ResourcesViewController.swift */; };
+		2D9FF99F268D775B003C4417 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF99E268D775B003C4417 /* JournalViewController.swift */; };
+		2D9FF9A1268D7785003C4417 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF9A0268D7785003C4417 /* TimerViewController.swift */; };
+		2D9FF9A3268D77A8003C4417 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF9A2268D77A8003C4417 /* RemindersViewController.swift */; };
+		2D9FF9A7268D7EC6003C4417 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF9A6268D7EC6003C4417 /* HomeViewController.swift */; };
 		DBD1E427268CB8A50033D293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1E426268CB8A50033D293 /* AppDelegate.swift */; };
 		DBD1E429268CB8A50033D293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1E428268CB8A50033D293 /* SceneDelegate.swift */; };
 		DBD1E42B268CB8A50033D293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1E42A268CB8A50033D293 /* ViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9FF99C268D7706003C4417 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		2D9FF99E268D775B003C4417 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		2D9FF9A0268D7785003C4417 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		2D9FF9A2268D77A8003C4417 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		2D9FF9A6268D7EC6003C4417 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DBD1E423268CB8A50033D293 /* kwkproject21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwkproject21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD1E426268CB8A50033D293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD1E428268CB8A50033D293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 				DBD1E434268CB8B20033D293 /* LaunchScreen.storyboard */,
 				DBD1E437268CB8B20033D293 /* Info.plist */,
 				DBD1E42F268CB8A50033D293 /* kwkproject21.xcdatamodeld */,
+				2D9FF99C268D7706003C4417 /* ResourcesViewController.swift */,
+				2D9FF99E268D775B003C4417 /* JournalViewController.swift */,
+				2D9FF9A0268D7785003C4417 /* TimerViewController.swift */,
+				2D9FF9A2268D77A8003C4417 /* RemindersViewController.swift */,
+				2D9FF9A6268D7EC6003C4417 /* HomeViewController.swift */,
 			);
 			path = kwkproject21;
 			sourceTree = "<group>";
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9FF9A3268D77A8003C4417 /* RemindersViewController.swift in Sources */,
+				2D9FF99D268D7706003C4417 /* ResourcesViewController.swift in Sources */,
 				DBD1E431268CB8A50033D293 /* kwkproject21.xcdatamodeld in Sources */,
 				DBD1E42B268CB8A50033D293 /* ViewController.swift in Sources */,
+				2D9FF9A1268D7785003C4417 /* TimerViewController.swift in Sources */,
+				2D9FF9A7268D7EC6003C4417 /* HomeViewController.swift in Sources */,
 				DBD1E427268CB8A50033D293 /* AppDelegate.swift in Sources */,
+				2D9FF99F268D775B003C4417 /* JournalViewController.swift in Sources */,
 				DBD1E429268CB8A50033D293 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
