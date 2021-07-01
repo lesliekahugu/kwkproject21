@@ -12,8 +12,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //This and the purple bckgrnd was me trying to get the launch screen thing to work...didn't succeed though -- LG
-        view.backgroundColor = .blue
+
 
         // Do any additional setup after loading the view.
     }
