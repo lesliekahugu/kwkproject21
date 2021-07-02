@@ -19,13 +19,18 @@ class ResourcesViewController: UIViewController {
       super.viewDidLoad()
      
     }
-    
+    /*
     @IBAction func buttonOne(_ sender: UIButton) {
         if let url = URL(string: "https://www.google.com"){
                     UIApplication.shared.open(url)
                 }
-    }
-    
+ */
+}
+/*
+    @IBAction func screeningButton(_ sender: UIButton) {
+if let url = URL(string: "https://www.apple.com") {
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    */
     
     /*
     // MARK: - Navigation
@@ -37,4 +42,7 @@ class ResourcesViewController: UIViewController {
     }
     */
 
-}
+
+    
+
+
