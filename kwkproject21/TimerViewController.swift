@@ -19,10 +19,12 @@ class TimerViewController: UIViewController {
           //@IBOutlet weak var TimerLabel: UILabel!
           //@IBOutlet weak var startStopButton: UIButton!
           //@IBOutlet weak var resetButton: UIButton!
-          
+    
+    
           @IBOutlet weak var TimerLabel: UILabel!
           @IBOutlet weak var startStopButton: UIButton!
           @IBOutlet weak var resetButton: UIButton!
+   
           var timer:Timer = Timer ()
           var count:Int = 0
           var timerCounting:Bool = false
