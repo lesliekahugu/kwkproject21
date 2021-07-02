@@ -241,7 +241,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(Enter Your Name)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iji-VJ-Tof">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(Enter Your Name)" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iji-VJ-Tof">
                                 <rect key="frame" x="69" y="134" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -403,7 +403,7 @@
             </objects>
             <point key="canvasLocation" x="877" y="1651"/>
         </scene>
-        <!--Complete To Do View Controller-->
+        <!--Completing Reminder-->
         <scene sceneID="ntd-VI-yZW">
             <objects>
                 <viewController id="2Ua-VC-E8c" customClass="CompleteToDoViewController" customModule="kwkproject21" customModuleProvider="target" sceneMemberID="viewController">
@@ -430,7 +430,7 @@
                         <viewLayoutGuide key="safeArea" id="761-5d-9Wr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JPD-Fy-AQI"/>
+                    <navigationItem key="navigationItem" title="Completing Reminder" id="JPD-Fy-AQI"/>
                     <connections>
                         <outlet property="titleLabel" destination="TxO-hr-IIH" id="k8c-IU-lVu"/>
                     </connections>
@@ -439,7 +439,7 @@
             </objects>
             <point key="canvasLocation" x="872" y="2368"/>
         </scene>
-        <!--Add To Do View Controller-->
+        <!--Adding Reminder-->
         <scene sceneID="8sG-Zy-V5j">
             <objects>
                 <viewController id="WFM-WG-tyx" customClass="AddToDoViewController" customModule="kwkproject21" customModuleProvider="target" sceneMemberID="viewController">
@@ -489,7 +489,7 @@
                         <viewLayoutGuide key="safeArea" id="2kd-JC-vgR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Q8l-A3-jbj"/>
+                    <navigationItem key="navigationItem" title="Adding Reminder" id="Q8l-A3-jbj"/>
                     <connections>
                         <outlet property="categoryText" destination="Jc9-I6-q2B" id="V4y-QB-Y4u"/>
                         <outlet property="categoryTextField" destination="Jc9-I6-q2B" id="xvg-qE-lRY"/>
