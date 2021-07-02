@@ -384,6 +384,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Remind" id="KHR-ud-7zN">
+                        <barButtonItem key="leftBarButtonItem" title="Test" id="uR0-G5-UR1">
+                            <connections>
+                                <action selector="testButton:" destination="u46-GF-cwK" id="LI7-3m-lpF"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" id="ZdB-mq-RHW">
                             <connections>
                                 <segue destination="WFM-WG-tyx" kind="show" id="dco-Wj-p5W"/>
