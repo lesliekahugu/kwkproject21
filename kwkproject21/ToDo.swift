@@ -7,7 +7,7 @@
 
 import UIKit
 
-class reminds{
+class ToDo{
     var name = ""
     var category = ""
     var date = Date()

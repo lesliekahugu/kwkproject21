@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D798E71268E347C0003D5CC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D798E70268E347C0003D5CC /* AddViewController.swift */; };
-		2D7A067F268E7CD6004983E9 /* remindTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A067E268E7CD6004983E9 /* remindTableViewController.swift */; };
-		2D7A0681268E7D3D004983E9 /* remind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A0680268E7D3D004983E9 /* remind.swift */; };
+		2D691903268F123400C49EE9 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D691902268F123400C49EE9 /* ToDoTableViewController.swift */; };
+		2D691905268F125E00C49EE9 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D691904268F125E00C49EE9 /* ToDo.swift */; };
+		2D691909268F157600C49EE9 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D691908268F157600C49EE9 /* AddToDoViewController.swift */; };
+		2D69190B268F188C00C49EE9 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69190A268F188C00C49EE9 /* CompleteToDoViewController.swift */; };
 		2D9FF99D268D7706003C4417 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF99C268D7706003C4417 /* ResourcesViewController.swift */; };
 		2D9FF99F268D775B003C4417 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF99E268D775B003C4417 /* JournalViewController.swift */; };
 		2D9FF9A1268D7785003C4417 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FF9A0268D7785003C4417 /* TimerViewController.swift */; };
@@ -43,9 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D798E70268E347C0003D5CC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		2D7A067E268E7CD6004983E9 /* remindTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remindTableViewController.swift; sourceTree = "<group>"; };
-		2D7A0680268E7D3D004983E9 /* remind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remind.swift; sourceTree = "<group>"; };
+		2D691902268F123400C49EE9 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		2D691904268F125E00C49EE9 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		2D691908268F157600C49EE9 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		2D69190A268F188C00C49EE9 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		2D9FF99C268D7706003C4417 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		2D9FF99E268D775B003C4417 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		2D9FF9A0268D7785003C4417 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -127,9 +129,10 @@
 				2D9FF99E268D775B003C4417 /* JournalViewController.swift */,
 				2D9FF9A0268D7785003C4417 /* TimerViewController.swift */,
 				2D9FF9A6268D7EC6003C4417 /* HomeViewController.swift */,
-				2D798E70268E347C0003D5CC /* AddViewController.swift */,
-				2D7A067E268E7CD6004983E9 /* remindTableViewController.swift */,
-				2D7A0680268E7D3D004983E9 /* remind.swift */,
+				2D691902268F123400C49EE9 /* ToDoTableViewController.swift */,
+				2D691904268F125E00C49EE9 /* ToDo.swift */,
+				2D691908268F157600C49EE9 /* AddToDoViewController.swift */,
+				2D69190A268F188C00C49EE9 /* CompleteToDoViewController.swift */,
 			);
 			path = kwkproject21;
 			sourceTree = "<group>";
@@ -282,16 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D798E71268E347C0003D5CC /* AddViewController.swift in Sources */,
+				2D691903268F123400C49EE9 /* ToDoTableViewController.swift in Sources */,
 				2D9FF99D268D7706003C4417 /* ResourcesViewController.swift in Sources */,
-				2D7A0681268E7D3D004983E9 /* remind.swift in Sources */,
 				DBD1E431268CB8A50033D293 /* kwkproject21.xcdatamodeld in Sources */,
-				2D7A067F268E7CD6004983E9 /* remindTableViewController.swift in Sources */,
+				2D691909268F157600C49EE9 /* AddToDoViewController.swift in Sources */,
 				DBD1E42B268CB8A50033D293 /* ViewController.swift in Sources */,
 				2D9FF9A1268D7785003C4417 /* TimerViewController.swift in Sources */,
 				2D9FF9A7268D7EC6003C4417 /* HomeViewController.swift in Sources */,
 				DBD1E427268CB8A50033D293 /* AppDelegate.swift in Sources */,
 				2D9FF99F268D775B003C4417 /* JournalViewController.swift in Sources */,
+				2D691905268F125E00C49EE9 /* ToDo.swift in Sources */,
+				2D69190B268F188C00C49EE9 /* CompleteToDoViewController.swift in Sources */,
 				DBD1E429268CB8A50033D293 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
